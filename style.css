@@ -1,0 +1,41 @@
+/* .heading, form{
+    text-align: center;
+    margin: 20px;
+}
+body{
+    border: 5px solid black;
+    margin: 50px 500px 150px 500px;
+}
+#username{
+    margin-top: 20px;
+} */
+
+body{
+    border: 5px double black;
+    border-radius: 25px;
+    margin-bottom: unset;
+}
+
+.heading, form{
+    text-align: center;
+    margin: 20px;
+}
+#username, #password, #email, #dob, #birthday, #security, #ans, #selection{
+    width: 240px !important;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#answer{
+    width: 240px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    resize: vertical;
+}
+
+#reset, #submit{
+    width: 120px;
+    height: 30px;
+}
